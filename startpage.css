@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+* {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+body {
+  background-image: url("img/backgrounds/pixelartjapanesenighttime.png");
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+#daily-info {
+  margin-top: 50px;
+}
+
+#date {
+  color: #EBEDEF;
+  font-family: "Press Start 2P";
+  font-size: 40px;
+  text-align: center;
+}
+
+#weather {
+}
+
+#phrase-of-the-day {
+  color: #EBEDEF;
+  font-family: "Press Start 2P";
+  font-size: 18px;
+  margin: 30px 200px 0px 200px;
+  text-align: center;
+}
+
+#phrase-of-the-day p {
+  padding-bottom: 20px;
+}
+
+#searches {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#searches #search-form input {
+  background-color: #000008;
+  border: 4px solid #EBEDEF;
+  color: #EBEDEF;
+  font-family: "Press Start 2P";
+  font-size: 16px;
+  line-height: 2;
+  width: 450px;
+  margin: 0;
+  padding: 5px 5px 5px 5px;
+}
+
+#links {
+  color: #EBEDEF;
+  cursor: pointer;
+  display: flex;
+  font-family: "Press Start 2P";
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#links .selection {
+  text-align: center;
+}
+
+#links .box {
+  background-color: #000008;
+  border: 4px solid #EBEDEF;
+  margin: 0px 10px 0px 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+#links .box h2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#links .box .list ul {
+  list-style: none;
+  margin-top: 5px;
+  margin-right: 30px;
+}
+
+#links .box .list ul li a {
+  color: #EBEDEF;
+  text-decoration: none;
+}
+
+#links .box .list ul li a:hover {
+  color: #3399FF;
+}
